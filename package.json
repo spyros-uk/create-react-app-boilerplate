@@ -13,7 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "format": "prettier --write '**/*.{js,jsx,scss,md}'"
+    "format": "prettier --write '**/*.{js,jsx,scss,md}'",
+    "precommit": "pretty-quick staged"
   },
   "setupFiles": [
     "./src/setupTests.js"
@@ -36,6 +37,9 @@
     "enzyme": "3.7.0",
     "enzyme-adapter-react-16": "1.6.0",
     "enzyme-to-json": "3.3.4",
-    "prettier": "1.14.3"
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.1.2",
+    "prettier": "1.14.3",
+    "pretty-quick": "^1.8.0"
   }
 }

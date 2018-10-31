@@ -1,4 +1,33 @@
+# react-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<!-- TOC START min:2 max:3 link:true update:true -->
+
+- [Develop](#develop)
+- [Available Scripts](#available-scripts)
+	- [`npm start`](#npm-start)
+	- [`npm test`](#npm-test)
+	- [`npm run build`](#npm-run-build)
+	- [`npm run eject`](#npm-run-eject)
+- [Learn More](#learn-more)
+
+<!-- TOC END -->
+
+## Develop
+
+How to start developing this project:
+
+- First you need to clone this project
+
+```sh
+git clone git@github.com:spyros-88/react-app.git
+cd react-app && rm -rf .git
+```
+
+- Linting
+
+This project uses prettier and eslint to lint its `js` files. It will run this before commiting any changes to make sure everyting is linted properly.
 
 ## Available Scripts
 
