@@ -31,6 +31,8 @@ This project uses prettier and eslint to lint its `js` files. It will run this b
 
 ## Available Scripts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spyros-88/create-react-app-boilerplate.svg)](https://greenkeeper.io/)
+
 In the project directory, you can run:
 
 ### `npm start`
