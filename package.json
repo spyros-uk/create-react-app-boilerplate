@@ -6,7 +6,7 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.1.0",
+    "react-scripts": "2.1.1",
     "styled-components": "^4.0.2"
   },
   "scripts": {
@@ -34,8 +34,8 @@
   ],
   "devDependencies": {
     "enzyme": "3.7.0",
-    "enzyme-adapter-react-16": "1.6.0",
+    "enzyme-adapter-react-16": "1.7.0",
     "enzyme-to-json": "3.3.4",
-    "prettier": "1.14.3"
+    "prettier": "1.15.2"
   }
 }
