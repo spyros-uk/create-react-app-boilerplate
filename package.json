@@ -13,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint src",
     "format": "prettier --write '**/*.{js,jsx,scss,md}'"
   },
   "setupFiles": [
@@ -22,6 +23,9 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "prettier": {
+    "semi": false
   },
   "eslintConfig": {
     "extends": "react-app"
