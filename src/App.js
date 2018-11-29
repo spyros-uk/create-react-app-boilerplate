@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import { createGlobalStyle } from "styled-components";
-import "./App.css";
+import React, { Component } from "react"
+import { createGlobalStyle } from "styled-components"
+import "./App.css"
 
 const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
   }
-`;
+`
 
 class App extends Component {
   render() {
@@ -18,8 +18,8 @@ class App extends Component {
           <header className="App-header">Happy coding!</header>
         </div>
       </>
-    );
+    )
   }
 }
 
-export default App;
+export default App
