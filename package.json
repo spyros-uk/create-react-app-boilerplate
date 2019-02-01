@@ -37,9 +37,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "enzyme": "3.7.0",
+    "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.8.0",
     "enzyme-to-json": "3.3.5",
-    "prettier": "1.15.3"
+    "prettier": "1.16.3"
   }
 }
